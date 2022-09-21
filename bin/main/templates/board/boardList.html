@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판리스트</title>
+</head>
+
+<body>
+	<h2>게시판리스트</h2>
+	<div>
+		<div id="boardList">
+		<div th:each="b : ${boardList}" >
+			<div th:text="${b.board_id}" ></div>
+			<div th:text="${b.board_title}"></div>
+			<div th:text="${b.board_content}"></div>
+			<hr />
+		</div>
+	</div>
+	</div>
+</body>
+</html>

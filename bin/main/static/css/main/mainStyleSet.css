@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{
+	width:100%;
+	margin: 0 auto; 
+	padding: 0;
+}
+
+.full{
+	width : 100%;
+	margin: 0 auto; 
+}
+
+/************** 메뉴 **************/
+.menulogo{
+	background-color: #EAEAEA;/*밝은회색*/
+	padding:1% 1% 1% 1%;
+	margin: 1% 0% 1% 0%;
+	border: 0px solid red;
+	text-align: center;
+	float: left;
+}
+
+.menuBar {
+	background-color: #EAEAEA;
+	padding:1% 1% 1% 1%;
+	margin: 2% 1% 2% 1%;
+	border: 1px solid blue; 
+	text-align: center;
+	float: left; 
+	width: 18%;
+}
+
+
+/************** 검색창 + 이미지 **************/
+.searchFull{
+	display: table;
+	width: 100%;
+	height:300px;
+	padding: 30px;
+	text-align: center;
+	background-image:url('../../../image/mainPage/searchFullImage01.png');
+	background-repeat:no-repeat;
+	
+}
+.searchInput {
+	background: none;
+	width:500px;
+	height:50px;
+	position: absolute;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	position:relative
+}
+
+.searchFull input{
+	display: table-cell;
+	margin: 150px 10px 0px 0px; 
+	padding : 10px 10px 10px 10px;
+ 	border: solid white 1px;
+ 	width: 100%;
+ 	height:30px;
+	text-align: center;
+	background-color: white;
+	position:absolute;
+	bottom:0;
+}
+
+.searchBtn {
+	margin : 0px 0px 0px 0px; 
+	padding : 10px 20px 10px 20px;
+	border: solid darkgray 1px;
+	border-radius: 5px 5px 5px 5px;  
+}
+
+
+
+html,body{background:#ddd}
+
+
+/* 가운데 정렬 */
+.inner {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* absolute */
+.outer,.inner {position:relative}
+.absolute {}

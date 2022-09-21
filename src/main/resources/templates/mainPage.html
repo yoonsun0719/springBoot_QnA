@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fix_MainPage</title>
+
+<th:block th:include="common/header/mainHead"></th:block>
+
+</head>
+<body>
+<!-- placeholder - 가로x세로/배경색/글자색.확장자?text=텍스트(공백은+로) -->
+<!----------------- 전체 ----------------->
+	<div class="full">
+	
+<!---------------- 메뉴바 ----------------->	
+
+		<div class="menu">
+			
+			<div class=menulogo><img th:src="@{image/mainPage/fixabilitylogo.png}" width="160"/></div>
+			<div class=menuBar>메뉴1</div>
+			<div class=menuBar>메뉴2</div>
+			<div class=menuBar>메뉴3</div>
+			<div class=menuBar>메뉴4</div>
+		</div>
+		
+<!------------- 검색창 + 이미지 ------------->		
+		<div class="middle">
+			<div class="searchFull">
+		    	<div class="searchInput">
+		          <span><input type="text" placeholder="원하시는 지역명, 지하철역, 단지명(아파트명)을 입력해주세요"></span>
+		    	</div>
+		    	 <button class="searchBtn">검색</button>
+		  	</div>
+	  	</div>
+
+<!-- 				<div class="searchInput"> -->
+<!-- 					<input type="text"> -->
+<!-- 					-->
+<!-- 				</div> -->
+
+		
+<!------------------ 배너 ----------------->		
+		<div class="midle">
+			<img src="https://via.placeholder.com/1800x200/FAF4C0/BDBDBD.png?text=banner">
+		</div>
+		
+<!----------------- 콘텐츠 ----------------->		
+		<div class="midle">
+			<img src="https://via.placeholder.com/1800x200/FAF4C0/BDBDBD.png?text=contents">
+		</div>		
+		
+<!---------------- 회사정보 ----------------->			
+		<div class="footer">
+			<img src="https://via.placeholder.com/1800x200/FAF4C0/BDBDBD.png?text=footer">
+		</div>
+	</div>
+</body>
+</html>
